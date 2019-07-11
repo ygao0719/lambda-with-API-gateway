@@ -1,5 +1,6 @@
 package lambda.with.API.Gateway;
 
+import com.amazonaws.services.lambda.runtime.Context;
 import org.junit.Test;
 
 import static org.junit.Assert.*;

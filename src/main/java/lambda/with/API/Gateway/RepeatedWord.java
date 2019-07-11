@@ -1,10 +1,17 @@
 package lambda.with.API.Gateway;
 
+import com.amazonaws.services.lambda.runtime.Context;
+import com.amazonaws.services.lambda.runtime.LambdaLogger;
+
 import java.util.HashSet;
 import java.util.Set;
 
 public class RepeatedWord {
     public static String duplicateWords(String input){
+
+//        LambdaLogger logger = c.getLogger();
+//        logger.log("receved the string " + input);
+
         if (input == null || input.isEmpty()){
             return null;
         }
